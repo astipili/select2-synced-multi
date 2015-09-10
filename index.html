@@ -1,0 +1,42 @@
+<html>
+<head>
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="select2.css" rel="stylesheet" />
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="underscore-min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="select2.min.js"></script>
+	<script src="select-synced-multi.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6">
+				<label>Select Input Parametrs:</label>
+				<input type="hidden" id="first" class="columns" style="width:100%"/>
+			</div><!--end col-md-6-->
+			<div class="col-md-6">
+				<label>Select Output Parametrs:</label>
+				<input type="hidden" id="second" class="columns" style="width:100%"/>
+			</div><!--end col-md-6-->
+		</div><!--end row-->
+	</div>
+</body>
+<script>
+
+$(document).ready(function() {
+
+	sync();
+    /*initiating select2  
+
+    $('#keysGrid').syncSelect2({
+        data: data1,
+        placeholder: "-- Select Keys --",
+        sync:['#second, #other']
+    })
+*/
+});
+</script>
+</html>
