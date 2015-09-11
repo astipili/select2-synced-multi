@@ -1,0 +1,21 @@
+{
+  "name": "select2-synced-multi",
+  "description": "syncs 2 or more select2 multi list boxes",
+  "version": "1.0",
+  "dependencies": {
+     "jquery": "latest",
+     "underscore": "latest",
+     "select2": "3.4.5"
+   },
+  "authors": [
+    "Asti Pili"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
